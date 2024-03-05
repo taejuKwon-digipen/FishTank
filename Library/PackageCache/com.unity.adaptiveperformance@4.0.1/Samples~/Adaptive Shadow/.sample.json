@@ -1,8 +1,3 @@
-{
-  "displayName": "Adaptive Shadow Sample",
-  "description": "Demonstrates how Adaptive Performance Shadow Scaler, such as Adaptive Shadow Quality, Adaptive Shadow Resolution, Adaptive Shadow Distance and Adaptive Shadow Cascade work.",
-  "createSeparatePackage": true,
-  "dependencies": {
-    "com.unity.render-pipelines.universal": "12.0.0"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf57fe3ea102979dd7aab554c423d064a4248c0da09d8e2c228ee389e10f0700
+size 350

@@ -1,8 +1,3 @@
-{
-  "displayName": "VRR Sample",
-  "description": "Demonstrates how Variable Refresh Rate displays can be used with Adaptive Performance.",
-  "createSeparatePackage": true,
-  "dependencies": {
-  	"com.unity.adaptiveperformance.samsung.android": "4.0.0"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:28845ee7dfef0307c96f4073654aed687a56b432d69366e83a6570918f82719c
+size 259
