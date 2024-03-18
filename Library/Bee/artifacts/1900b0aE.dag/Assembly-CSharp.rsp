@@ -396,8 +396,11 @@
 "Assets/Script/Fish.cs"
 "Assets/Script/FishManager.cs"
 "Assets/Script/GameManager.cs"
+"Assets/Script/GameStartB.cs"
 "Assets/Script/PageSwiper.cs"
+"Assets/Script/SceneChange.cs"
 "Assets/Script/StatManager.cs"
+"Assets/Script/StoreB.cs"
 "Assets/Script/SwipeUI.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0

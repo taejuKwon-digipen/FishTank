@@ -5,14 +5,8 @@ using UnityEngine.UIElements;
 
 public class FishStat : MonoBehaviour
 {
-    public enum fishStat
-    {
-        Name, 
-        Hunger,
-        Pain
-    }
-
-    public static List<fishStat> fish = new List<fishStat>();//string들어가야하고
-
+    public string name;
+    public int hunger;
+    public bool canbuy = false;
     
 }

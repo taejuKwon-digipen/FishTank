@@ -9,17 +9,6 @@ class FishStatusInfo
     public bool CanBuy = false;
     public bool Have = false;
 }
-/*public class FishStats
-{
-    [SerializeField]
-    private int hunger;
-    private int pain;
-
-    public void GetStats()
-    {
-        return hunger;
-    }
-}*/
 
 [System.Serializable]
 public class FishManager : MonoBehaviour

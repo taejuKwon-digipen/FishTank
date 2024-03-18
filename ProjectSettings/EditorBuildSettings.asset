@@ -11,9 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainUI.unity
     guid: b1b3af88e23b4cb4186392c79ce40a07
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FirstTank.unity
     guid: e4d8bc89ead01d047828876da69b72c7
+  - enabled: 1
+    path: Assets/Scenes/Store.unity
+    guid: fae88d216d327084bb91505ecf80c94f
+  - enabled: 1
+    path: Assets/Scenes/Book.unity
+    guid: 2a09903b04a3bf14ca707c11e160508f
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 1845ed75a734625409ceba3ed945264e, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: a871e49f07191774b9aed93b36b4396a, type: 2}
