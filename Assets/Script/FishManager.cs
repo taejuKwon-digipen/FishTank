@@ -2,44 +2,38 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-class FishStatusInfo
-{
-    public string Name = "";
-    public int Cost;
-    public bool CanBuy = false;
-    public bool Have = false;
-}
 
-[System.Serializable]
 public class FishManager : MonoBehaviour
 {
-     List<FishStatusInfo> FishList = new List<FishStatusInfo>();
+    public FishStat fishs;
+    List<FishStat> fishlist = new List<FishStat>();
 
-   public void setFishList( string name, int cost, bool canbuy, bool have)
+    public void SetFishList(string Name, int Hunger, bool Canbuy, int Cost)
     {
-         FishStatusInfo Fishinfo = new FishStatusInfo();
-         Fishinfo.Name = name;
-         Fishinfo.Cost = cost;
-         Fishinfo.CanBuy = canbuy;
-         Fishinfo.Have = have;
-        FishList.Add(Fishinfo);
+        fishs.name = Name;
+        fishs.hunger = Hunger;
+        fishs.canbuy = Canbuy;
+        fishs.cost = Cost;
+
+        fishlist.Add(fishs);
+    }
+    public string ReturnName(int number)
+    {
+        string ret = fishlist[number].name;
+        return ret;
     }
 
-    public void deleteFishList(int indextoremove)
+    public int ReturnCost(int number)
     {
-        FishList.RemoveAt(indextoremove);
-    } 
-    // FishStatusInfo Fishinfo = new FishStatusInfo()
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+        int ret = fishlist[number].cost;
+        return ret;
     }
 
-    // Update is called once per frame
-    void Update()
+    public int ReturnHunger(int number)
     {
-        
+        int ret = fishlist[number].hunger;
+        return ret;
     }
+
+
 }

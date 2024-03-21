@@ -8,5 +8,5 @@ public class FishStat : MonoBehaviour
     public string name;
     public int hunger;
     public bool canbuy = false;
-    
+    public int cost = 0;
 }

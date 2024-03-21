@@ -1954,7 +1954,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "\uAD11\uC5B4"
   hunger: 80
-  canbuy: 0
+  canbuy: 1
+  cost: 100
 --- !u!114 &1273225949
 MonoBehaviour:
   m_ObjectHideFlags: 0
