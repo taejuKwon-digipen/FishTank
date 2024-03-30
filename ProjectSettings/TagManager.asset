@@ -12,7 +12,7 @@ TagManager:
   - Water
   - UI
   - PopUP
-  - 
+  - Fish
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: fish
+    uniqueID: 153242275
+    locked: 0
+  - name: UI
+    uniqueID: 2214556697
     locked: 0
